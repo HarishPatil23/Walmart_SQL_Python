@@ -67,7 +67,7 @@ pip install pandas numpy sqlalchemy mysql-connector-python
 In this stage, MySQL is used to write and execute **advanced analytical queries** that answer Walmart’s key business questions.  
 The questions are organized into three clear categories for better readability and structured problem-solving.
 
----
+
 #### Category A — Sales & Revenue Analysis
 | # | Business Question | Purpose |
 |---|-------------------|--------|
