@@ -31,14 +31,14 @@ Ideal for data analysts, job seekers, and portfolio building — this project de
 - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
 
 ### 3. Download Walmart Sales Data
-- Data Source: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-- Dataset Link: [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets)
-- Storage: Save the data in the `data/` folder for easy reference and access.
+- **Data Source:** Use the Kaggle API to download the Walmart sales datasets from Kaggle.
+- **Dataset Link:** [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets)
+- **Storage:** Save the data in the `data/` folder for easy reference and access.
 
 ### 4. Install Required Libraries and Load Data
-- Libraries: Install necessary Python libraries using:
+- **Libraries:** Install necessary Python libraries using:
 pip install pandas numpy sqlalchemy mysql-connector-python
-- Loading Data: Read the data into a Pandas DataFrame for initial analysis and transformations.
+- **Loading Data:** Read the data into a Pandas DataFrame for initial analysis and transformations.
 
 ### 5. Explore the Data
 - Goal: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
