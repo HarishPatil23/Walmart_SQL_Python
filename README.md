@@ -43,8 +43,8 @@ pip install pandas numpy sqlalchemy mysql-connector-python
 - **Loading Data:** Read the data into a Pandas DataFrame for initial analysis and transformations.
 
 ### 5. Explore the Data
-- Goal: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
-- Analysis: Use functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
+- **Goal:** Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
+- **Analysis:** Use functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
 
 ### 6. Data Cleaning
 - **Remove Duplicates:** Identify and remove duplicate entries to avoid skewed results.
@@ -128,12 +128,20 @@ pip install -r requirements.txt
 
 ### Project Structure
 ```bash
-├── data/                              # Raw + cleaned dataset
-├── Walmart_Business_Queries_MySQL/    # 15 Fully Solved & Documented SQL Files
-├── notebooks/                         # Jupyter notebook (optional)
-├── main.py                            # Data cleaning + MySQL load script
-├── walmart_sales_clean.csv            # Final cleaned data
-└── README.md                          # This file
+├── data/                               # Raw + cleaned datasets
+│   ├── walmart_raw.csv                 # Original dataset
+│   └── walmart_clean.csv               # Final cleaned dataset
+│
+├── sql/                                # SQL scripts folder
+│   └── walmart_business_queries_mysql.sql   # All 15 business problems solved
+│
+├── notebooks/                          # Jupyter notebooks (EDA, cleaning)
+│   └── walmart_analysis.ipynb
+│
+├── main.py                             # ETL: Load, clean, and export to MySQL
+│
+└── README.md                           # Project documentation
+
 ```
 ---
 
